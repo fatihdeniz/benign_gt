@@ -1,0 +1,28 @@
+Malicious and Benign Webpages Dataset~\cite{dataset:singh2020malicious} is a publicly available dataset, originally released by Singh and Kumar in 2020. It was compiled by crawling the internet using the Mal Crawler tool~\cite{malcrawler:wang2013click}, with labels generated through Google Safe Browsing~\cite{gsb}. In contrast, PDNS-Net~\cite{dataset:kumarasinghe2022pdns} comprises domains found within the expanded graph of a predefined set of selected malicious seed domains obtained from VirusTotal~cite{virustotal}, utilizing passive DNS.
+
+
+@article{dataset:singh2020malicious,
+  title={Malicious and benign webpages dataset},
+  author={Singh, AK},
+  journal={Data in brief},
+  volume={32},
+  pages={106304},
+  year={2020},
+  publisher={Elsevier}
+}
+
+@inproceedings{malcrawler:wang2013click,
+  title={Click traffic analysis of short url spam on twitter},
+  author={Wang, De and Navathe, Shamkant B and Liu, Ling and Irani, Danesh and Tamersoy, Acar and Pu, Calton},
+  booktitle={9th IEEE international conference on collaborative computing: networking, applications and worksharing},
+  pages={250--259},
+  year={2013},
+  organization={IEEE}
+}
+
+@article{dataset:kumarasinghe2022pdns,
+  title={Pdns-net: A large heterogeneous graph benchmark dataset of network resolutions for graph learning},
+  author={Kumarasinghe, Udesh and Deniz, Fatih and Nabeel, Mohamed},
+  journal={arXiv preprint arXiv:2203.07969},
+  year={2022}
+}
