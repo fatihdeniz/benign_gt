@@ -1,0 +1,48 @@
+Public PE malware datasets:
+
+Ember and Sorel-20M are two benchmark datasets from 2.0 dataset consists of 1.55M samples (800K malicious and 750K benign) that were combined from 2017 and 2018 datasets. Sorel-20M dataset consists of around 20M (~10M malicious and ~10M benign) PE files collected between 2017 to 2019. The BODMAS dataset contains 57,293 malware samples and 77,142 benign samples collected from August 2019 to September 2020, from a security company’s internal database. 
+UCSB dataset focuses on benign and malicious PE samples that use packing. For all the datasets feature vectors are generated using the LIEF project, following the existing works' methodology, representing each sample as a 2381-feature vector.
+
+@misc{sorel:harang:2020:arxiv,
+      title={SOREL-20M: A Large Scale Benchmark Dataset for Malicious PE Detection}, 
+      author={Richard Harang and Ethan M. Rudd},
+      year={2020},
+      eprint={2012.07634},
+      archivePrefix={arXiv},
+      primaryClass={cs.CR}
+}
+
+@ARTICLE{ember:anderson:2018arXiv,
+  author = {{Anderson}, H.~S. and {Roth}, P.},
+  title = "{EMBER: An Open Dataset for Training Static PE Malware Machine Learning Models}",
+  journal = {ArXiv e-prints},
+  archivePrefix = "arXiv",
+  eprint = {1804.04637},
+  primaryClass = "cs.CR",
+  keywords = {Computer Science - Cryptography and Security},
+  year = 2018,
+  month = apr,
+  adsurl = {http://adsabs.harvard.edu/abs/2018arXiv180404637A},
+}
+
+@inproceedings{bodmas:yang:2021,
+  title = {BODMAS: An Open Dataset for Learning based Temporal Analysis of PE Malware},
+  author = {Yang, Limin and Ciptadi, Arridhana and Laziuk, Ihar and Ahmadzadeh, Ali and Wang, Gang},
+  booktitle = {4th Deep Learning and Security Workshop},
+  year = {2021}
+}
+
+@MISC {lief:rhomain:2017,
+  author       = "Romain Thomas",
+  title        = "LIEF - Library to Instrument Executable Formats",
+  howpublished = "https://lief.quarkslab.com/",
+  month        = "apr",
+  year         = "2017"
+}
+
+@inproceedings{ucsb:aghakhani:2020:NDSS,
+  title={When malware is packin'heat; limits of machine learning classifiers based on static analysis features},
+  author={Aghakhani, Hojjat and Gritti, Fabio and Mecca, Francesco and Lindorfer, Martina and Ortolani, Stefano and Balzarotti, Davide and Vigna, Giovanni and Kruegel, Christopher},
+  booktitle={Network and Distributed Systems Security (NDSS) Symposium 2020},
+  year={2020}
+}
